@@ -5,7 +5,7 @@ RUN mkdir /crawler \
 && ln -s /config /crawler/config
 COPY ./fkf /crawler/fkf
 COPY ./ics /crawler/ics
-COPY ./index.ts /crawler/
+COPY ./index.tsx /crawler/
 
 WORKDIR /crawler
 
