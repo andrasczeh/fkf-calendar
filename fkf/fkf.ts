@@ -8,7 +8,7 @@ export interface DateFile {
 
 export class FkfSelectiveDateRetriever {
         private readonly dateFilePath = "../config/fkf-date.json";
-        private readonly url = "https://fkf.hu/hulladeknaptar";
+        private readonly url = "https://mohubudapest.hu/hulladeknaptar";
        
         async getCurrentDate(): Promise<Date> {
                 const dateFile = await this.readDateFile();
