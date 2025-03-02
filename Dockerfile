@@ -9,4 +9,4 @@ COPY ./index.tsx /crawler/
 
 WORKDIR /crawler
 
-CMD [ "run", "--allow-net", "--allow-read", "--allow-write", "index.ts" ]
+CMD [ "run", "--allow-net", "--allow-read", "--allow-write", "index.tsx" ]
